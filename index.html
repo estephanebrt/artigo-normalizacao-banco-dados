@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalizacao de Banco de Dados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Normalizacao de Banco de Dados</h1>
+        <p>Organizando dados para evitar repeticoes e erros</p>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introducao</a>
+        <a href="#primeira-forma">1FN</a>
+        <a href="#segunda-forma">2FN</a>
+        <a href="#terceira-forma">3FN</a>
+        <a href="#conclusao">Conclusao</a>
+    </nav>
+
+    <main>
+        <section id="introducao">
+            <h2>O que e normalizacao?</h2>
+            <p>
+                A normalizacao e um processo de organizacao das tabelas
+                de um banco de dados. Ela ajuda a reduzir repeticoes,
+                evitar inconsistencias e manter as informacoes corretas.
+            </p>
+        </section>
+
+        <section id="primeira-forma">
+            <h2>Primeira Forma Normal (1FN)</h2>
+            <p>
+                A 1FN exige que cada campo tenha um unico valor,
+                sem listas de valores dentro da mesma celula.
+            </p>
+        </section>
+
+        <section id="segunda-forma">
+            <h2>Segunda Forma Normal (2FN)</h2>
+            <p>
+                A 2FN exige que a tabela esteja na 1FN e que cada
+                atributo que nao faz parte de uma chave dependa
+                da chave completa, sem dependencias parciais.
+            </p>
+        </section>
+
+        <section id="terceira-forma">
+            <h2>Terceira Forma Normal (3FN)</h2>
+            <p>
+                A 3FN exige que a tabela esteja na 2FN e evita
+                dependencias transitivas inadequadas entre atributos
+                que nao fazem parte de uma chave.
+            </p>
+        </section>
+
+        <section id="conclusao">
+            <h2>Conclusao</h2>
+            <p>
+                A normalizacao ajuda a construir bancos de dados
+                mais organizados, reduzindo problemas de insercao,
+                atualizacao e exclusao de informacoes.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Artigo academico sobre banco de dados.</p>
+    </footer>
+
+</body>
+</html>
